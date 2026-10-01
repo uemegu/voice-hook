@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"/absolute/path/to/voice-hook/scripts/claude-stop-voice.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

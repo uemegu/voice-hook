@@ -1,0 +1,2 @@
+# /absolute/path/to/voice-hook を、このフォルダの絶対パスに置き換えてください。
+notify = ["/bin/bash", "/absolute/path/to/voice-hook/scripts/codex-stop-voice.sh"]

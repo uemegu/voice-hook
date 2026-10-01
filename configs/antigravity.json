@@ -1,0 +1,11 @@
+{
+  "voice-notification": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "/bin/bash \"/absolute/path/to/voice-hook/scripts/antigravity-stop-voice.sh\"",
+        "timeout": 10
+      }
+    ]
+  }
+}
