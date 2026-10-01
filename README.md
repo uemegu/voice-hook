@@ -14,21 +14,15 @@ Codex、Claude Code、Antigravityの応答が終わったとき、日本語の�
 
 ### Codexのサンプル
 
-<!-- CODEX_AUDIO_PLAYER: 公開時に previews/codex-stop-voice-01.mp4 をGitHubのREADME編集欄へ添付し、このコメントを生成された添付URLに置き換える。手順: docs/github-audio-preview.md -->
-
-[WAVファイルを開く](voices/codex/codex-stop-voice-01.wav)
+https://github.com/user-attachments/assets/aff0186b-3969-4d7a-9208-c2e62cfd8243
 
 ### Claude Codeのサンプル
 
-<!-- CLAUDE_AUDIO_PLAYER: 公開時に previews/claude-stop-voice-01.mp4 をGitHubのREADME編集欄へ添付し、このコメントを生成された添付URLに置き換える。手順: docs/github-audio-preview.md -->
-
-[WAVファイルを開く](voices/claude/claude-stop-voice-01.wav)
+https://github.com/user-attachments/assets/b710ef51-4b36-4fba-b45d-6edc0811af49
 
 ### Antigravityのサンプル
 
-<!-- ANTIGRAVITY_AUDIO_PLAYER: 公開時に previews/antigravity-stop-voice-01.mp4 をGitHubのREADME編集欄へ添付し、このコメントを生成された添付URLに置き換える。手順: docs/github-audio-preview.md -->
-
-[WAVファイルを開く](voices/antigravity/antigravity-stop-voice-01.wav)
+https://github.com/user-attachments/assets/4dbdff16-da4b-431f-a096-cbca63140c0a
 
 ローカルで再生する手順は、下の「音声の確認」にあります。
 
