@@ -157,7 +157,6 @@ voice-hook/
 │   ├── codex/        # Codex用音声：3本
 │   ├── claude/       # Claude Code用音声：3本
 │   └── antigravity/  # Antigravity用音声：3本
-├── previews/        # GitHubのREADMEに添付する試聴用MP4：各アプリ1本
 ├── docs/
 │   └── github-audio-preview.md  # 公開時にプレイヤーを埋め込む手順
 └── README.md
