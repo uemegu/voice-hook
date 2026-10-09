@@ -6,11 +6,15 @@ if [[ "${1:-}" != "--test" ]]; then
         printf 'codex-stop-voice: jq is required\n' >&2
         exit 0
     fi
-    [[ $# -gt 0 ]] || exit 0
-    printf '%s' "${!#}" | jq -es '
+    input="${!#:-}"
+    if [[ -z "$input" && ! -t 0 ]]; then
+        input="$(cat)"
+    fi
+    [[ -n "$input" ]] || exit 0
+    printf '%s' "$input" | jq -es '
         length == 1 and (.[0] |
             type == "object" and
-            (.type == "agent-turn-complete" or .type == "assistant-turn-complete")
+            (.hook_event_name == "Stop" or .event_name == "Stop" or .type == "Stop")
         )
     ' >/dev/null 2>&1 || exit 0
 fi
